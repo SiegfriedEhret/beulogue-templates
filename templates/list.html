@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{language}}">
+	<head>
+		<meta name="generator" content="beulogue" />
+		<meta charset="utf-8" />
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="RSS"
+			href="/feed.xml"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>
+			{{site.title}}
+		</title>
+
+		<link rel="stylesheet" href="/styles.css" />
+	</head>
+
+	<body>
+		<header>
+			<h1>
+				{{title}}
+			</h1>
+
+			{{{content}}}
+		</header>
+
+		{{#pages}}
+		<section>
+			<a href="{{url}}">{{title}}</a>
+
+			<div>{{dateFormatted}}</div>
+
+			<p>{{description}}</p>
+		</section>
+		{{/pages}}
+	</body>
+</html>
