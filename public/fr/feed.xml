@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <lastBuildDate>2019-08-01</lastBuildDate>
+    <link>https://TODO</link>
+    <title>My awesome website</title>
+    <item>
+      <description>Une petite description</description>
+      <link>https://TODO/fr/my-awesome-post.html</link>
+      <pubDate>2019-08-01</pubDate>
+      <title>Mon super billet</title>
+    </item>
+  </channel>
+</rss>
