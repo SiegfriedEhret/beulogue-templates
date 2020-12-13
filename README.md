@@ -4,13 +4,17 @@ This is a template for [beulogue](https://beulogue.ehret.me/).
 
 ## Installation
 
-Download a zip of the `multiple-languages` branch and extract it somewhere. 
+Download the `multiple-languages` branch from GitHub: 
 
-The zip is available on:
+```sh
+git clone -b multiple-languages https://github.com/SiegfriedEhret/beulogue-templates.git
+```
 
-- [bitbucket](https://bitbucket.org/siegfriedehret/beulogue-templates/get/multiple-languages.zip)
-- [codeberg](https://codeberg.org/SiegfriedEhret/beulogue-templates/archive/multiple-languages.zip)
-- [github](https://github.com/SiegfriedEhret/beulogue-templates/archive/multiple-languages.zip)
+Or from sourcehut:
+
+```sh
+git clone -b multiple-languages https://git.sr.ht/~siegfriedehret/beulogue-templates
+```
 
 ## What's inside ?
 

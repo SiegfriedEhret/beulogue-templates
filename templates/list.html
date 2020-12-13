@@ -24,18 +24,18 @@
 			<h1>
 				{{title}}
 			</h1>
-
-			{{{content}}}
+			
+			{{content | escape}}
 		</header>
 
-		{{#pages}}
+		{% for page in pages %}
 		<section>
-			<a href="{{url}}">{{title}}</a>
+			<a href="{{page.url}}">{{page.title}}</a>
 
-			<div>{{dateFormatted}}</div>
+			<div>{{page.dateFormatted}}</div>
 
-			<p>{{description}}</p>
+			<p>{{page.description}}</p>
 		</section>
-		{{/pages}}
+		{% endfor %}
 	</body>
 </html>

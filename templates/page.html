@@ -25,11 +25,11 @@
 			{{ title }}
 		</h1>
 		<div>
-			{{#multilang}}
-			<a href="{{url}}">{{language}}</a>
-			{{/multilang}}
+			{% for lang in multilang %}
+			<a href="{{lang.url}}">{{lang.language}}</a>
+			{% endfor %}
 		</div>
-
-		{{{content}}}
+		
+		{{content | escape}}
 	</body>
 </html>
