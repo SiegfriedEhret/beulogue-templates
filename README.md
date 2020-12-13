@@ -4,13 +4,17 @@ This is a template for [beulogue](https://beulogue.ehret.me/).
 
 ## Installation
 
-Download a zip of the `single-language` branch and extract it somewhere. 
+Download the `single-language` branch from GitHub: 
 
-The zip is available on:
+```sh
+git clone -b single-language https://github.com/SiegfriedEhret/beulogue-templates.git
+```
 
-- [bitbucket](https://bitbucket.org/siegfriedehret/beulogue-templates/get/single-language.zip)
-- [codeberg](https://codeberg.org/SiegfriedEhret/beulogue-templates/archive/single-language.zip)
-- [github](https://github.com/SiegfriedEhret/beulogue-templates/archive/single-language.zip)
+Or from sourcehut:
+
+```sh
+git clone -b single-language https://git.sr.ht/~siegfriedehret/beulogue-templates
+```
 
 ## What's inside ?
 
